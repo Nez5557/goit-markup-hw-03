@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Цвет основного текста #757575; */
+/* Вторичный цвет текста #212121; */
+/* Белый #FFFFFF; */
+/* Акцент #2196F3; */
+/* Контакты в подвале 255,255,255,0,6; */
+/* Цвет фона #FFFFFF */
+/* Цвет фона команды #F5F4FA; */
+/* Цвет фона подвала #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #fff;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --black-color: #000000;
+  --button-color: #f5f4fa;
+}
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  margin: auto;
+}
+.link {
+  color: var(--title-text-color);
+}
+.site-nav .nav-link.current {
+  color: var(--accent-color);
+}
+.site-nav a:hover {
+  color: var(--accent-color);
+}
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.link:visited {
+  color: var(--title-text-color);
+}
+.site-nav,
+.link-current {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-continuation {
+  color: var(--black-color);
+  font-family: Oleo script, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
+.link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
+.social-links {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
+.hero > h1 {
+  font-size: 44px;
+}
+.hero {
+  background-color: var(--primary-background-color);
+  color: var(--white-color);
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.order-service {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  box-align: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.our-work {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.job-description {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.description {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.our-people {
+  box-align: center;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.our-team {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+.profession {
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+.basement {
+  background-color: var(--primary-background-color);
+}
+.logo-continuation-conclusion {
+  color: var(--white-color);
+  font-family: Oleo script, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.38;
+}
+.address {
+  color: var(--white-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.link-current-name,
+.social-links-name {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.button-list button:hover {
+  font-family: Roboto, sans-serif;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button-list button:focus {
+  font-family: Roboto, sans-serif;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button-list button {
+  font-family: Roboto, sans-serif;
+  background-color: var(--button-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 3%;
+}
+.name-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6%;
+}
+.description-name {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 3%;
+}
