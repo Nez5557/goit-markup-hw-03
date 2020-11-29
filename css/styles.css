@@ -27,13 +27,22 @@ ul {
   --black-color: #000000;
   --button-color: #f5f4fa;
 }
+html {
+  box-sizing: border-box;
+}
 body {
-  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  margin: auto;
+  font-family: Roboto, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .link {
   color: var(--title-text-color);
+}
+.menu {
+  display: flex;
+  margin-left: 215px;
+  height: 80px;
 }
 .site-nav .nav-link.current {
   color: var(--accent-color);
@@ -50,6 +59,7 @@ body {
 .site-nav,
 .link-current {
   color: var(--accent-color);
+  margin-left: 92px;
 }
 .logo {
   color: var(--accent-color);
@@ -64,12 +74,17 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-top: 24px;
+  maring-bottom: 25px;
 }
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  margin-left: 92px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .link {
   color: var(--title-text-color);
@@ -77,6 +92,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  margin-left: 52px;
 }
 .social-links {
   color: var(--primary-text-color);
@@ -84,6 +100,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
+  margin-right: 215px;
+  margin-left: 331px;
 }
 .hero > h1 {
   font-size: 44px;
