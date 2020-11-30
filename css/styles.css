@@ -41,19 +41,24 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: 215px;
-  margin-top: 57px;
 }
 .container {
   width: 1200px;
-  height: 80px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
-.site-nav .nav-link.current .social-links:not(:last-child) {
+.contacts {
   margin-right: 50px;
+  margin-left: auto;
+}
+.contacts .nav-link-current:not(:last-child) {
+  margin-right: 50px;
+  margin-left: 93px;
 }
 .link {
   color: var(--title-text-color);
@@ -109,7 +114,7 @@ nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 .hero > h1 {
   font-size: 44px;
