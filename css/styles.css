@@ -53,13 +53,13 @@ nav {
   margin-right: auto;
 }
 .contacts {
-  margin-right: 50px;
+  /* margin-right: 50px; */
   margin-left: auto;
 }
-.contacts .nav-link-current:not(:last-child) {
+/* .contacts .nav-link-current:not(:last-child) {
   margin-right: 50px;
   margin-left: 93px;
-}
+} */
 .link {
   color: var(--title-text-color);
 }
@@ -92,15 +92,20 @@ nav {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 85px;
 }
 .site-nav {
   display: flex;
-  margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
 }
+.header-nav li:not(:last-child),
+.contacts li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -114,9 +119,9 @@ nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
-.hero > h1 {
+.hero h1 {
   font-size: 44px;
 }
 .hero {
@@ -127,14 +132,14 @@ nav {
   letter-spacing: 0.06em;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.hero {
   text-align: center;
   margin-top: 0;
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
+/* .hero {
+} */
 .order-service {
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -173,23 +178,19 @@ nav {
   font-size: 14px;
   line-height: 1.71;
 }
+.description-active {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about h2,
 .description {
+  text-align: center;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  margin-right: 30px;
-  margin-top: 94px;
-}
-h2 {
-  width: 376px;
-  height: 42px;
-  margin-left: 612px;
-  margin-top: 969px;
-}
-.description-active {
-  width: 1170px;
-  align-items: center;
+  /* margin-right: 30px; */
 }
 .our-people {
   display: flex;
