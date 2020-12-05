@@ -334,19 +334,20 @@ ul {
 li {
   text-align: -webkit-match-parent;
 }
-.box {
-  border: 1px solid #eeeeee;
-}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-
   list-style: none;
   margin-top: 26px;
 }
 .image-portfolio {
-  padding-right: 30px;
-  padding-bottom: 30px;
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+}
+.image-portfolio:nth-child(3n) {
+  margin-right: 0px;
 }
 .name-title {
   color: var(--title-text-color);
