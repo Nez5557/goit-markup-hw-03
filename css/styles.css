@@ -58,10 +58,6 @@ nav {
 .site-nav .nav-link.current {
   color: var(--accent-color);
 }
-.site-nav .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 .site-nav a:hover {
   color: var(--accent-color);
 }
@@ -101,7 +97,10 @@ nav {
 .contacts li:not(:last-child) {
   margin-right: 50px;
 }
-
+.header-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .link {
   color: var(--title-text-color);
   font-weight: 500;
